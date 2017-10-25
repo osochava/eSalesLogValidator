@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
+
+
+body {
+  padding: 6px;
+  font-size: 15px;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.uploader {
+  border-style: dashed;
+  border-color: #ccc;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  font-size: 16px;
+}
+
+.no-transition {
+  transition: none !important;
+  -webkit-transition: none !important;
+}
+
+.results-box {
+  margin-top: 14px;
+}
+
+.session-box {
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 10px;
+}
+
+.session-result-box {
+  flex-grow: 1;
+  border: 1px solid #000;
+  border-left: none;
+  padding: 0px !important;
+}
+
+.session-id {
+  color: darkgray;
+  margin-bottom: 6px;
+}
+
+.ellipse-background {
+  margin-left: 14px;
+  margin-right: 4px;
+  border-radius: 50%;
+  padding: 1px 8px 1px 8px;
+}
+
+.total-background {
+  background-color: darkgray;
+}
+
+.valid-background {
+  background-color: darkseagreen;
+}
+
+.invalid-background {
+  background-color: indianred;
+}
+
+.invalid-action-background {
+  background-color: indianred;
+}
+
+.session-result {
+  width: 6px;
+  border: 1px solid #000;
+}
+
+.error-result {
+  background-color: red;
+}
+
+.bought-result {
+  background-color: darkseagreen;
+}
+
+.viewed-result {
+  background-color: yellow;
+}
+
+.product-viewed {
+  background-color: darkgray;
+}
+
+.product-bought {
+  background-color: darkseagreen;
+}
+
+.product-rated {
+  background-color: yellow;
+}
+
+.session-div {
+  margin-left: 40px;
+  margin-top: 6px;
+}
+
+.error-box {
+  margin-top: 20px;
+}
+
+.link-img-expander {
+  float: left;
+  margin: 10px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  height: 18px;
+  width: 18px;
+  border: 1px solid black;
+}
+
+.link-img-up {
+  background: url('../images/up-arrows.png') no-repeat 50%;
+  background-size: 12px;
+}
+
+.link-img-down {
+  background: url('../images/down-arrows.png') no-repeat 50%;
+  background-size: 12px;
+}
+
+.log-box {
+  padding-left: 56px;
+  font-weight: 100;
+}
+
+.log-container {
+  padding-left: 0px !important;
+  font-size: 13px;
+}

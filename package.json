@@ -1,0 +1,30 @@
+{
+  "name": "esaleslogvalidator",
+  "version": "1.0.0",
+  "description": "task 2 sochava",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olga Sochava",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "classnames": "^2.2.5",
+    "jquery": "^3.2.1",
+    "mithril": "^1.1.4",
+    "webworkify": "^1.4.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "browserify-css": "*",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  },
+  "browserify-css": {
+    "autoInject": true,
+    "minify": true,
+    "rootDir": "."
+  }
+}
