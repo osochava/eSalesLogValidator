@@ -50,9 +50,11 @@ app.uploader = new Uploader();
 app.state = { pageY: 0, pageHeight: window.innerHeight }
 
 window.addEventListener("scroll", function(e) {
+  let lastValuePageY = app.state.pageY;
   app.state.pageY = Math.max(e.pageY || window.pageYOffset, 0);
   app.state.pageHeight = window.innerHeight;
-  m.redraw() //notify view
+  if (app.state.pageY - lastValuePageY > 200)
+    m.redraw() //notify view
 })
 
 function ready() {
